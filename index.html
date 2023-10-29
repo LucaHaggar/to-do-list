@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lista Spesa</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1
+          class="align-items-center justify-content-center text-center text-white h1"
+        >
+          To-do List
+        </h1>
+        <div class="todo-app">
+          <h2>Lista <img src="images/icon.png" /></h2>
+          <div class="row">
+            <div class="col-12 col-md-8">
+              <input
+                type="text"
+                id="input-box"
+                placeholder="Aggiungi prodotto"
+              />
+            </div>
+            <div class="col-12 col-md-4">
+              <button onclick="addTask()">Aggiungi</button>
+            </div>
+          </div>
+          <ul id="list-container">
+            <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+          </ul>
+        </div>
+        <img
+          class="imgCustom"
+          src="https://media4.giphy.com/media/GgJCq1wLh4VbiGJBKt/giphy.gif?cid=ecf05e47a4san60el09dc155jb3yviethr84bzlue3krxtdl&ep=v1_gifs_related&rid=giphy.gif&ct=g"
+          alt=""
+        />
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
